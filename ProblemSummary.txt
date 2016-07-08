@@ -1,0 +1,48 @@
+ Risk Modeling
+How can banks better understand customers and markets?
+
+The Summary
+A large bank took separate data warehouses from multiple departments and combined them
+into a single global repository in Hadoop for analysis. The bank used the Hadoop cluster to
+construct a new and more accurate score of the risk in its customer portfolios. The more
+accurate score allowed the bank to manage its exposure better and to offer each customer
+better products and advice. Hadoop increased revenue and improved customer satisfaction.
+
+The Challenge
+
+A very large bank with several consumer lines of business needed to analyze customer
+activity across multiple products to predict credit risk with greater accuracy.
+Over the years, the bank had acquired a number of regional banks. Each of those banks
+had a checking and savings business, a home mortgage business, credit card offerings, and
+other financial products. Those applications generally ran in separate silos—each used its
+own database and application software. As a result, over the years the bank had built up a
+large number of independent systems that could not share data easily.
+
+With the economic downturn of 2008, the bank had significant exposure in its mortgage
+business to defaults by its borrowers. Understanding that risk required the bank to build a
+comprehensive picture of its customers. A customer whose direct deposits to checking had
+stopped, and who was buying more on credit cards, was likely to have lost a job recently.
+That customer was at higher risk of default on outstanding loans as a result.
+
+The Solution
+
+The bank set up a single Hadoop cluster containing more than a petabyte of data collected
+from multiple enterprise data warehouses. With all of the information in one place, the bank
+added new sources of data, including customer call center recordings, chat sessions, emails
+to the customer service desk, and others. Pattern matching techniques recognize the same
+customer across the different sources, even when there were some discrepancies in the
+identifying information stored. The bank applied techniques like text processing, sentiment
+analysis, graph creation, and automatic pattern matching to combine, digest, and analyze
+the data.
+
+The result of this analysis is a very clear picture of a customer’s financial situation, this risk
+of default or late payment, and his satisfaction with the bank and its services. The bank has
+demonstrated not just a reduction of cost from the existing system, but improved revenue
+from better risk management and customer retention.
+
+While this application was specific to retail banking services, the techniques described—
+the collection and combination of structured and complex data from multiple silos, and a
+powerful tool of analytics that combine the data and look for patterns – apply broadly. A
+company with several lines of business often has only a fragmentary, incomplete picture
+of its customers, and can improve revenues and customer satisfaction by creating a single
+global view from those pieces.
